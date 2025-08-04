@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0 1.5rem;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+}
+
+#navButton {
+    color: white;
+    background: #1A5276;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    gap: 12rem;
+}
+
+
+h1 {
+    font-size: 72px;
+}
+
+#Home p {
+    font-size: 40px;
+}
+
+.homeButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.homeButtons button {
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 8px;
+}
+
+.colorYellow{
+    color: #FFCC00;
+}
+
+.colorBlue{
+    color: #0A4062;
+}
+.homeButtonsBlue {
+    background-color:#0A4062 ;
+    color: white;
+    font-size: 20px;
+}
+
+.homeButtonsWhite{
+    background-color:white ;
+    color: black;
+    border: 1px solid black!important;
+
+}
+
+#Home img{
+    height: 24rem;
+}
