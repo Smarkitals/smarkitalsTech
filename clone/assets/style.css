@@ -88,3 +88,60 @@ h1 {
 #Home img{
     height: 24rem;
 }
+
+
+/* about section  */
+
+#about h2{
+    color: #0A4062;
+    font-size: 45px;
+}
+
+.aboutUsSection {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    gap: 4%;
+}
+
+.abouUsSectionBoxs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.abouUsSectionBox {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+   
+  
+}
+.abouUsSectionBox h4 {
+    margin-bottom: 0.5rem;
+}
+
+.boxYellow{
+    background:  #FFCC00;
+    color:  black;
+
+}
+
+.boxBlue{
+ background: #0A4062;
+ color: white;
+}
+
+
+
+/* footer */
+#footer {
+    background: #0A4062;
+    text-align: center;
+    color: white;
+}
+
+.footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
