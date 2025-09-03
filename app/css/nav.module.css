@@ -1,0 +1,41 @@
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+
+} 
+
+.right{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.navButton {
+    background: #814AC8;
+    padding:  0.5rem 1rem;
+    border-radius: 10px;
+
+}
+
+/* footer */
+
+.footerMainTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.footerMainTopRightGridColumns {
+    display: flex;
+    gap: 1rem;
+}
+.footerMain {
+    text-align: center;
+}
+
+.footerMainBottom {
+    padding: 1rem;
+}
