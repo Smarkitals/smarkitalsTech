@@ -1,0 +1,74 @@
+.main {
+      justify-content: center;
+    place-items: center;
+    display: grid
+;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 450px;
+    padding: 2rem;
+
+
+   
+}
+.subHeading {
+    text-align: center;
+    margin: 1rem;
+}
+.heading{
+    font-size: 55px;
+    text-align: center;
+        line-height: normal;
+
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+}
+
+.getInTouchButton {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: #814ac8;
+
+}
+.vewServicesButton {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: #000000;
+    border: 1px solid #323232;
+
+}   
+
+@media only screen and (max-width:700px) {
+
+    .main {
+      justify-content: center;
+    place-items: center;
+    display: grid
+;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+    padding: 2rem 1rem;
+    height: auto;
+
+
+   
+}
+
+.subHeading {
+    text-align: center;
+    margin: 1rem;
+}
+.heading{
+    font-size:30px;
+    text-align: center;
+        line-height: normal;
+
+}
+    
+}

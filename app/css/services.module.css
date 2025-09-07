@@ -1,0 +1,74 @@
+.main {
+      justify-content: center;
+    place-items: center;
+    display: grid
+;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+    padding: 2rem;
+
+
+   
+}
+
+.serviceButton {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: #000000;
+    border: 1px solid #323232;
+    width: max-content;
+}
+
+.headingMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.headingMain h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cards {
+    padding: 1rem 0;
+}
+
+.card{
+    grid-template-columns: 48% 48%;
+    gap: 2%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardImage {
+    padding: 2rem;
+    border-radius: 10px;
+    background: #0D0D0D;
+  
+}
+
+.cardTextHeading {
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width:700px) {
+    .card{
+    grid-template-columns: 100%;
+    gap: 2%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 0rem ;
+}
+
+    
+}
