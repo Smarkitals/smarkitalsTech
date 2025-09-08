@@ -70,5 +70,22 @@
     margin: 2.5rem 0rem ;
 }
 
+.headingMain{
+    
+    padding: 0rem;
+
+}
+
+.main {
+    padding: 1rem;
+}
+
+.headingMain h3 {
+    font-size: 25px;
+    padding: 1rem 0 ;
+    
+}
+
+
     
 }

@@ -1,0 +1,54 @@
+.main {
+      justify-content: center;
+    place-items: center;
+    display: grid
+;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+    padding: 2rem;
+
+
+   
+}
+
+.benefitsCard {
+    max-width: 350px;
+    width: fit-content;
+    padding: 1.5rem;
+    border: 1px solid #222222;
+    border-radius: 8px ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.benefitsCard h4 {
+    font-size: 30px;
+}
+
+
+.benefitsCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+@media only screen and (max-width:700px) {
+
+    .benefitsCards{
+     grid-template-columns: 100%;
+    }
+    .benefitsCard h4 {
+    font-size: 20px;
+}
+
+.benefitsCard p {
+    font-size: 16px;
+}
+
+.main {
+    padding: 1.5rem 0;
+}
+    
+}
