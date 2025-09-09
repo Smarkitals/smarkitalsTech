@@ -11,7 +11,7 @@ export default function Benefits(){
 
     return (
  <div className={styles.main}>
-                        <SubHeadingContent button="Benifits" heading="The Key Benefits of automation  for Your Business Growth" subheading="Discover how Smarkitals enhances efficiency, reduces costs, and drives business growth with smarter, faster processes." />
+                        <SubHeadingContent button="Benefits" heading="The Key Benefits of automation  for Your Business Growth" subheading="Discover how Smarkitals enhances efficiency, reduces costs, and drives business growth with smarter, faster processes." />
 
 
 

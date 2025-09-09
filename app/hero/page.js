@@ -3,6 +3,14 @@ import style from "../css/hero.module.css";
 
 export default function Hero(){
 
+      const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+   
+    }
+  };
+
     return(
         <div className={style.main}>
             <h2 className={style.heading}>
@@ -16,7 +24,7 @@ We deliver profits through smarter systems
             <button className={style.getInTouchButton}>
                 Get In Touch
             </button>
-            <button className={style.vewServicesButton}>
+            <button onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className={style.vewServicesButton}>
                 View Services
             </button>
             </div>
