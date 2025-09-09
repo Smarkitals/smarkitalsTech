@@ -7,11 +7,10 @@ import Service from "./services/page";
 export default function Home() {
   return (
    <div>
-    <Hero />
-    <Service />
-    <Process />
-    <Benefits />
-
-   </div>
+      <div id="home"><Hero /></div>
+      <div id="about"><Service /></div>
+      <div id="process"><Process /></div>
+      <div id="benefits"><Benefits /></div>
+    </div>
   );
 }

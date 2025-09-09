@@ -56,6 +56,8 @@
 
     .hamburger {
         display: flex;
+        position: fixed;
+    right: 2rem;
     }
 
     .footerMainTop {
