@@ -4,7 +4,7 @@ import styles from "../css/benefits.module.css";
 import SubHeadingContent from "../../components/subHeading";
 import BenefitsCard from "../../components/benefitCards";
 
-import Image from "next/image";
+
 
 
 export default function Benefits(){

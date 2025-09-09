@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Hero from "./hero/page";
 import Benefits from "./benefits/page";
 import Process from "./process/page";

@@ -6,7 +6,7 @@ export default function Hero(){
     return(
         <div className={style.main}>
             <h2 className={style.heading}>
-                We don't deliver tech.
+                We don&apos;t deliver tech.
 We deliver profits through smarter systems
             </h2>
             <p className={style.subHeading}>

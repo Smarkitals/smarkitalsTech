@@ -4,7 +4,7 @@ import styles from "../css/process.module.css";
 import SubHeadingContent from "../../components/subHeading";
 import ProcessCard from "../../components/processCard";
 
-import Image from "next/image";
+
 
 
 export default function Process() {
