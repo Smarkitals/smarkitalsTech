@@ -1,0 +1,15 @@
+.WhoAreFreeCardss {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media only screen and (max-width:700px) {
+    
+.WhoAreFreeCardss {
+    grid-template-columns: auto ;
+}
+}
