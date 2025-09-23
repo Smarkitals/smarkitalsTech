@@ -22,6 +22,7 @@ export default function Process() {
                     step="1"
                     heading="Business Need Analysis"
                     subHeading="We assess your current operations, map bottlenecks and identify areas where tech can maximize efficiency"
+                    imgPath="12e21.jpg"
                 />
 
 
@@ -29,6 +30,7 @@ export default function Process() {
                     step="2"
                     heading="Solution Blueprinting"
                     subHeading="Our team creates tailored system designs and selects the right tools to match your business needs."
+                       imgPath="43.webp"
                 />
 
 
@@ -37,6 +39,7 @@ export default function Process() {
                     step="3"
                     heading="Smart Development & Automation"
                     subHeading="We build intelligent, automation-driven solutions that replace manual work with system-based workflows."
+                       imgPath="314.jpg"
                 />
 
 
@@ -44,6 +47,7 @@ export default function Process() {
                     step="4"
                     heading="Seamless Integration"
                     subHeading="We integrate new solutions into your existing infrastructure. ensuring zero disruption to ongoing operations."
+                       imgPath="341.jpg"
                 />
 
 
@@ -51,6 +55,7 @@ export default function Process() {
                     step="5"
                     heading="Testing & Validation"
                     subHeading="Every solution undergoes audit-grade testing for accuracy, reliability, and compliance before rollout."
+                       imgPath="gr.webp"
                 />
 
 
@@ -59,6 +64,7 @@ export default function Process() {
                     step="6"
                     heading="Continuous Optimization"
                     subHeading="We monitor, analyze, and enhance performance over time to deliver sustained savings and long-term ROI."
+                       imgPath="323.webp"
                 />
 
 

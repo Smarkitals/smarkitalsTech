@@ -1,74 +1,89 @@
+/* ---- Reset ---- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: -1; /* Ensure particles stay behind the content */
+}
+
+/* ---- Main container for Hero Section ---- */
 .main {
-      justify-content: center;
-    place-items: center;
-    display: grid
-;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    height: 450px;
-    padding: 2rem;
-
-
-   
+  display: grid;
+  place-items: center;  /* Shorthand for centering in both axes */
+  height: 450px;
+  padding: 2rem;
+  position: relative;  /* Ensure content is above particles.js */
+  z-index: 1;
 }
+
+/* Subheading styles */
 .subHeading {
-    text-align: center;
-    margin: 1rem;
-}
-.heading{
-    font-size: 55px;
-    text-align: center;
-        line-height: normal;
-
+  text-align: center;
+  margin: 1rem;
+  font-size: 1rem;
+  color: #fff; /* Ensure visibility on dark background */
 }
 
-.button{
-    display: flex;
-    gap: 1rem;
+/* Heading styles */
+.heading {
+  font-size: 55px;
+  text-align: center;
+  line-height: normal;
+  color: #fff; /* Ensure visibility on dark background */
+}
+
+/* Button container */
+.button {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Individual button styles */
+.getInTouchButton,
+.vewServicesButton {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .getInTouchButton {
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    background-color: #814ac8;
-
+  background-color: #814ac8;
+  border: none;
 }
+
 .vewServicesButton {
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    background-color: #000000;
-    border: 1px solid #323232;
+  background-color: #000000;
+  border: 1px solid #323232;
+}
 
-}   
-
-@media only screen and (max-width:700px) {
-
-    .main {
-      justify-content: center;
-    place-items: center;
-    display: grid
-;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-
+/* ---- Responsive styles for smaller screens ---- */
+@media only screen and (max-width: 700px) {
+  .main {
     padding: 2rem 1rem;
     height: auto;
+  }
 
+  .heading {
+    font-size: 30px;
+  }
 
-   
-}
+  .subHeading {
+    font-size: 0.875rem;  /* Smaller font on mobile */
+  }
 
-.subHeading {
-    text-align: center;
-    margin: 1rem;
-}
-.heading{
-    font-size:30px;
-    text-align: center;
-        line-height: normal;
-
-}
-    
+  /* Adjust button styles for mobile */
+  .button {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }

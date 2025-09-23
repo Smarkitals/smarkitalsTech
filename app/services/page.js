@@ -18,7 +18,7 @@ export default function Service() {
                                 <div className={styles.card}>
                                         <div className={styles.cardImage}>
                                                 <Image
-                                                        src="/temp/img1.png"
+                                                        src="/temp/456.jpg"
                                                         alt="Service Image"
                                                         width={300}
                                                         height={300}
@@ -48,7 +48,7 @@ export default function Service() {
 
                                         <div className={styles.cardImage}>
                                                 <Image
-                                                        src="/temp/img1.png"
+                                                        src="/temp/123.jpg"
                                                         alt="Service Image"
                                                         width={300}
                                                         height={300}
@@ -59,7 +59,7 @@ export default function Service() {
                                 <div className={styles.card}>
                                         <div className={styles.cardImage}>
                                                 <Image
-                                                        src="/temp/img1.png"
+                                                        src="/temp/6196429.jpg"
                                                         alt="Service Image"
                                                         width={300}
                                                         height={300}
@@ -87,7 +87,7 @@ export default function Service() {
                                         </div>
                                         <div className={styles.cardImage}>
                                                 <Image
-                                                        src="/temp/img1.png"
+                                                        src="/temp/bussiness.png"
                                                         alt="Service Image"
                                                         width={300}
                                                         height={300}
@@ -99,7 +99,7 @@ export default function Service() {
                                 <div className={styles.card}>
                                         <div className={styles.cardImage}>
                                                 <Image
-                                                        src="/temp/img1.png"
+                                                        src="/temp/growth.png"
                                                         alt="Service Image"
                                                         width={300}
                                                         height={300}

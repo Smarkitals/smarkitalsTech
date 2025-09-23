@@ -19,7 +19,7 @@ export default function AboutCardSingle({imageSrc ,heading, linkDinLink, suHeadi
     return(
        <div className={styles.aboutCard}>  
                 <div className={styles.aboutCardTop}>
-                    <Image src="/temp/img4.jpg" alt="About Image" height={500} width={300} /> 
+                    <Image src={`/temp/${imageSrc}`} alt="About Image" height={500} width={300} /> 
                 </div>
                 <div className={styles.aboutCardBottom}>
                    

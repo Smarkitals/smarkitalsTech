@@ -5,10 +5,11 @@ interface process {
     step: string;
     heading: string;
     subHeading: string;
+    imgPath:string;
 }
 
 
-export default function ProcessCard({ step, heading, subHeading }: process) {
+export default function ProcessCard({ step, heading, subHeading, imgPath }: process) {
     return (
         <div className={styles.processCard}>
 
@@ -26,7 +27,7 @@ export default function ProcessCard({ step, heading, subHeading }: process) {
                 </p>
             </div>
             <div className={styles.processCardImg}>
-                <Image src="/temp/img2.png"
+                <Image src={`/temp/${imgPath}`}
                     height={350}
                     width={350}
                     alt="Process Card image"
