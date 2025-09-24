@@ -83,7 +83,7 @@ body {
 
   /* Adjust button styles for mobile */
   .button {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 0.5rem;
   }
 }

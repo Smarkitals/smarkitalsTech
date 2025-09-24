@@ -64,7 +64,7 @@ export default function Nav() {
         <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
         <a href="#process" onClick={(e) => { e.preventDefault(); scrollToSection('process'); }}>Process</a>
         <a href="#benefits" onClick={(e) => { e.preventDefault(); scrollToSection('benefits'); }}>Benefits</a>
-        <a className={styles.navButton} href="">Book a call</a>
+        <a className={styles.navButton} href="mailto:info@smarkitalstech.com" target="_blank">Book a call</a>
       </div>
     </div>
   );

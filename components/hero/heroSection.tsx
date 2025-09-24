@@ -104,7 +104,9 @@ export default function HeroSection({
       </p>
       <div className={style.button}>
         {getInTouchButton && (
-          <button className={style.getInTouchButton}>
+          <button className={style.getInTouchButton}
+  onClick={() => window.open('mailto:info@smarkitalstech.com', '_blank')}
+>
             {getInTouchButton}
           </button>
         )}
