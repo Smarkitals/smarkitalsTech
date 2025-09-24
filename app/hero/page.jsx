@@ -10,7 +10,7 @@ export default function Hero(){
         <HeroSection 
         heading="We don&apos;t deliver tech.We deliver profits through smarter systems"
         subHeading="From eliminating bottlenecks to automating workflows, we design systems that unlock hidden savings and turn them into profits for your business" 
-        idScroll="about"
+        idScroll="service"
         getInTouchButton="Get In Touch"
         vewServicesButton="View Services"
         />

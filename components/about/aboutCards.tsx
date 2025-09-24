@@ -22,7 +22,7 @@ export default function AboutCards(){
             <AboutCardSingle heading="Manish Kulshrestha" suHeading="Founder Emeritus & Chief Advisor" imageSrc="manish.png" linkDinLink=""/>
             <AboutCardSingle heading="Sanket Kulshrestha" suHeading="Chief Executive Officer & Founder" imageSrc="sanket.jpg" linkDinLink=""/>
 
-      <AboutCardSingle heading="Poorvanshi Kulshreshtha" suHeading="Chief Operations Officer & Co-Founder" imageSrc="sanket.jpg" linkDinLink=""/>
+      {/* <AboutCardSingle heading="Poorvanshi Kulshreshtha" suHeading="Chief Operations Officer & Co-Founder" imageSrc="sanket.jpg" linkDinLink=""/> */}
     
 
         </div>
