@@ -19,6 +19,13 @@
     
 }
 
+.aboutCardTop img{
+        max-width: 100%;
+    height: auto;
+    max-height: 330px;
+    object-fit: cover;
+} 
+
 
 .aboutCardBottom a {
     border: 1px solid white;
