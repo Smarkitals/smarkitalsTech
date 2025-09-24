@@ -10,7 +10,7 @@ export default function WhoAreFree(){
 <div className={styles.whoMain}>
 
         <SubHeadingContent 
-        button="Who We Are"
+        button="About Us"
         heading="Who We Are"
         subheading="Smarkitals is a team of innovators dedicated to making automation simple and effective. We help businesses streamline workflows, boost efficiency, and scale with smart, driven solutions." 
         />
